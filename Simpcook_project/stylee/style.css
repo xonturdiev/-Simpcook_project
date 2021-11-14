@@ -1,0 +1,449 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 50px;
+    background-color: #57BE6C;
+}
+
+.container {
+    margin: 0 auto;
+    /*text-align: center;*/
+    width: 1440px;
+    overflow: hidden;
+}
+
+.page_header_Logo {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #F58D41;
+    /*margin-left: 160px;*/
+}
+
+.page_header_Logo span {
+    color: white;
+}
+
+.page_header_nav-bar_ul {
+    margin-left: 690px;
+    margin-top: -28px;
+}
+
+.page_header_nav-bar_li {
+    display: inline-block;
+}
+
+.page_header_nav-bar_link {
+    color: white;
+    margin-right: 55px;
+}
+
+.page_header_nav-bar_link span {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 13px;
+    background-color: #fff;
+    color: #57BE6C;
+}
+
+.page_header_nav-bar_link:hover {
+    color: #F58D41;
+}
+
+.page_header_nav-bar_link span:hover {
+    background-color: #57BE6C;
+    color: white;
+}
+
+.page_header_cooking_h1 {
+    /*font-family: Poppins;*/
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 130%;
+    /* or 70px */
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 150px;
+}
+
+.page_header_cooking_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #AAAAAA;
+    margin-top: 40px;
+}
+
+.page_header_social-media_wrapper {
+    margin-top: 55px;
+    display: flex;
+    margin-right: 62px;
+}
+
+.instagram {
+    margin-right: 30px;
+}
+
+.facebook {
+    margin-right: 30px;
+}
+
+.twitter {
+    margin-top: 4px;
+}
+
+.page_header_icon_started a {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border: 1px solid #57BE6C;
+    background-color: #57BE6C;
+    color: white;
+    position: relative;
+    top: 60px;
+    border-radius: 20px;
+}
+
+.page_header_icon_started a:hover {
+    background-color: #fff;
+    border: 2px solid #57BE6C;
+    color: #57BE6C;
+}
+
+.page_header_food_img {
+    margin-top: -400px;
+    margin-left: 600px;
+}
+
+.page_header_ingredients_wrapper {
+    width: 900px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-top: 150px;
+    display: flex;
+}
+
+.page_header_ingredients_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #AAAAAA;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.page_header_ingredients_text span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #222222;
+}
+
+.page_header_ingredients_wrapper_search_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    border: 1px solid #57BE6C;
+    background-color: #57BE6C;
+    border-radius: 20px;
+    height: 56px;
+    width: 245px;
+    margin-left: 85px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+.page_header_ingredients_wrapper_search_text p a {
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 70px;
+    color: #FFFFFF;
+    position: relative;
+    top: 7px;
+}
+
+.page_body_food_recipe {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #0645AD;
+    margin-top: 135px;
+}
+
+.page_body_food_h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    /* identical to box height */
+    letter-spacing: 0.035em;
+    color: #000000;
+}
+
+.page_body_see_more {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #0645AD;
+    margin-left: 1085px;
+    margin-top: -50px;
+}
+
+.page_body_delicious_food_img {
+    margin-top: 70px;
+}
+
+.page_body_img_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 51px;
+    /* identical to box height */
+    letter-spacing: 0.035em;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.page_body_img_star {
+    margin-left: 300px;
+    margin-top: -38px;
+}
+
+.page_body_img_star p {
+    margin-left: 138px;
+    position: relative;
+    top: -30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #000000
+}
+
+.page_body_img-wrapper2 {
+    margin-left: 700px;
+    margin-top: -570px;
+}
+
+.page_body_2_man_img {
+    margin-top: 180px;
+    border-radius: 20px;
+}
+
+.page_body_2_about_us a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #0645AD;
+    margin-left: 575px;
+    position: relative;
+    top: -644px;
+}
+
+.page_body_2_Professional_chef {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    /* identical to box height */
+    letter-spacing: 0.035em;
+    color: #000000;
+    margin-left: 570px;
+    margin-top: -640px;
+}
+
+.page_body_2_professional_chef_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #AAAAAA;
+    margin-left: 575px;
+}
+
+.page_body_2_verified {
+    width: 80px;
+    height: 65px;
+    background-color: #57BE6C;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 570px;
+    margin-top: 25px;
+}
+
+.page_body_2_verified_h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    /* identical to box height */
+    letter-spacing: 0.035em;
+    color: #000000;
+    margin-left: 690px;
+    margin-top: -49px;
+}
+
+.page_body_2_verified_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #AAAAAA;
+    margin-left: 690px;
+    margin-top: 5px;
+}
+
+.page_body_2_verified_wrapper2 {
+    margin-top: 55px;
+}
+
+.page_body_2_down_icon {
+    width: 70px;
+    height: 55px;
+    background-color: #ececec;
+    position: relative;
+    border-radius: 15px;
+    left: 820px;
+    top: 60px;
+}
+
+.page_body_2_down_icon img {
+    margin-left: 22px;
+    margin-top: 22px;
+}
+
+.page_body_2_wrapper {
+    margin-left: 130px;
+}
+
+.page_body_3_what_said {
+    margin-top: 150px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #0645AD
+}
+
+.page_body_3_users_say {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    /* identical to box height */
+    letter-spacing: 0.035em;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.page_body_3_users_say_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #AAAAAA;
+    margin-top: 15px;
+}
+
+.page_body_3_user_photo img {
+    border-radius: 50%;
+    margin-top: 110px;
+}
+
+.page_body_3_user_photo_name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 85px;
+    margin-top: -65px;
+}
+
+.page_body_3_user_photo_name span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #AAAAAA;
+    position: relative;
+    top: -10px;
+}
+
+
+.page_body_3_img_star {
+    margin-left: 297px;
+    margin-top: -60px;
+}
+
+.page_body_3_img_star span {
+    position: relative;
+    top: -30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 140px;
+    margin-top: -21px;
+}
+
+.page_body_3_food_img {
+    margin-left: 700px;
+    margin-top: -438px;
+}
+
